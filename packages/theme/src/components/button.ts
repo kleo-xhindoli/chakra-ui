@@ -48,7 +48,6 @@ function variantOutline(props: Dict) {
   return {
     border: "1px solid",
     borderColor: c === "gray" ? borderColor : "currentColor",
-    boxShadow: "sm",
     ...variantGhost(props),
   }
 }
