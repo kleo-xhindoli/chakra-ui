@@ -44,7 +44,7 @@
     "release": "lerna publish",
     "release:ci": "lerna publish -y --loglevel verbose",
     "version:next": "lerna version --exact --force-publish=* --preid rc",
-    "release:next": "lerna publish from-package --dist-tag next",
+    "release:next": "lerna publish from-package --dist-tag next --skip-npm",
     "docs": "yarn workspace @chakra-ui/docs",
     "docs:deploy": "yarn build && yarn docs:build && cp -r website/public .",
     "docs:build": "yarn members:gen && yarn avatars:gen && yarn docs build",
