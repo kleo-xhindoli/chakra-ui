@@ -14,7 +14,7 @@ import { CheckIcon, InfoIcon, WarningIcon } from "./icons"
 
 const STATUSES = {
   info: { icon: InfoIcon, colorScheme: "blue" },
-  warning: { icon: WarningIcon, colorScheme: "orange" },
+  warning: { icon: WarningIcon, colorScheme: "yellow" },
   success: { icon: CheckIcon, colorScheme: "green" },
   error: { icon: WarningIcon, colorScheme: "red" },
 }

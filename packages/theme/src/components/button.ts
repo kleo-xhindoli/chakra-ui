@@ -44,7 +44,7 @@ function variantGhost(props: Dict) {
 
 function variantOutline(props: Dict) {
   const { colorScheme: c } = props
-  const borderColor = mode(`gray.200`, `whiteAlpha.300`)(props)
+  const borderColor = mode(`gray.300`, `whiteAlpha.300`)(props)
   return {
     border: "1px solid",
     borderColor: c === "gray" ? borderColor : "currentColor",
@@ -84,16 +84,27 @@ function variantSolid(props: Dict) {
       _hover: { bg: mode(`gray.200`, `whiteAlpha.300`)(props) },
       _active: { bg: mode(`gray.300`, `whiteAlpha.400`)(props) },
     }
+  else if (c === "white")
+    return {
+      bg: mode(`white`, `whiteAlpha.50`)(props),
+      border: "1px solid",
+      borderColor: mode(`gray.300`, `whiteAlpha.400`)(props),
+      boxShadow: "sm",
+      color: mode(`gray.700`, `whiteAlpha.800`)(props),
+      _hover: { color: mode(`gray.500`, `whiteAlpha.600`)(props) },
+      _active: { bg: mode(`gray.50`, `whiteAlpha.100`)(props) },
+    }
 
   const {
-    bg = `${c}.500`,
+    bg = `${c}.600`,
     color = "white",
-    hoverBg = `${c}.600`,
+    hoverBg = `${c}.500`,
     activeBg = `${c}.700`,
   } = accessibleColorMap[c] || {}
   return {
     bg: mode(bg, `${c}.200`)(props),
     color: mode(color, `gray.800`)(props),
+    boxShadow: "sm",
     _hover: { bg: mode(hoverBg, `${c}.300`)(props) },
     _active: { bg: mode(activeBg, `${c}.400`)(props) },
   }
@@ -140,7 +151,7 @@ const sizes = {
   md: {
     h: 10,
     minW: 10,
-    fontSize: "md",
+    fontSize: "sm",
     px: 4,
   },
   sm: {
@@ -153,7 +164,7 @@ const sizes = {
     h: 6,
     minW: 6,
     fontSize: "xs",
-    px: 2,
+    px: 2.5,
   },
 }
 

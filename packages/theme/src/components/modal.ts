@@ -31,12 +31,14 @@ function baseStyleContent(props: Dict) {
   }
 }
 
-const baseStyleHeader = {
+const baseStyleHeader = (props: Dict) => ({
   px: 6,
-  py: 4,
-  fontSize: "xl",
-  fontWeight: "semibold",
-}
+  pt: 4,
+  mb: 2,
+  fontSize: "lg",
+  fontWeight: "medium",
+  color: mode("gray.900", "gray.100")(props),
+})
 
 function baseStyleBody(props: Dict) {
   const { scrollBehavior } = props
@@ -44,6 +46,9 @@ function baseStyleBody(props: Dict) {
     px: 6,
     py: 2,
     flex: 1,
+    color: mode("gray.500", "gray.400")(props),
+    fontSize: "sm",
+    lineHeight: 5,
     overflow: scrollBehavior === "inside" ? "auto" : undefined,
   }
 }
@@ -56,7 +61,7 @@ const baseStyleFooter = {
 const baseStyle = (props: Dict) => ({
   overlay: baseStyleOverlay(props),
   content: baseStyleContent(props),
-  header: baseStyleHeader,
+  header: baseStyleHeader(props),
   body: baseStyleBody(props),
   footer: baseStyleFooter,
 })

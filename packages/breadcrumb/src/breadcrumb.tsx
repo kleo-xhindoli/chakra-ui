@@ -67,7 +67,13 @@ export const BreadcrumbLink = forwardRef<BreadcrumbLinkProps, "a">(
     }
 
     if (isCurrentPage) {
-      return <chakra.span aria-current="page" {...sharedProps} />
+      return (
+        <chakra.span
+          aria-current="page"
+          __css={styles.activeLink}
+          {...sharedProps}
+        />
+      )
     }
 
     return <chakra.a __css={styles.link} {...sharedProps} />

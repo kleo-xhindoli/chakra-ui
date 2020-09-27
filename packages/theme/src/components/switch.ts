@@ -9,7 +9,7 @@ function baseStyleTrack(props: Record<string, any>) {
     borderRadius: "full",
     p: "2px",
     transition: "all 120ms",
-    bg: mode("gray.300", "whiteAlpha.400")(props),
+    bg: mode("gray.200", "whiteAlpha.300")(props),
     _focus: {
       boxShadow: "outline",
     },
@@ -25,9 +25,10 @@ function baseStyleTrack(props: Record<string, any>) {
 
 const baseStyleThumb = {
   bg: "white",
-  transition: "transform 250ms",
+  transition: "transform 200ms",
   borderRadius: "full",
   transform: "translateX(0)",
+  shadow: "base",
 }
 
 const baseStyle = (props: Record<string, any>) => ({

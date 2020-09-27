@@ -9,7 +9,7 @@ function baseStyleControl(props: Record<string, any>) {
     w: "100%",
     transition: "box-shadow 250ms",
     border: "2px solid",
-    borderRadius: "sm",
+    borderRadius: "default",
     borderColor: "inherit",
     color: "white",
 
