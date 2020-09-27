@@ -2,6 +2,15 @@ import Color from "tinycolor2"
 import { memoizedGet as get, Dict, isEmptyObject } from "@chakra-ui/utils"
 
 /**
+ * Sets the opacity to a hex color and returns the rgb string
+ * @param hex - the hex color
+ * @param opacity - the alpha value to set, must be from 0 to 1
+ */
+export const rgba = (hex: string, opacity: number) => {
+  return Color(hex).setAlpha(opacity).toRgbString()
+}
+
+/**
  * Get the color raw value from theme
  * @param theme - the theme object
  * @param color - the color path ("green.200")
