@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/number-input",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "description": "An accessible numeric input alternative to <input type='number' />",
   "keywords": [
     "theme",

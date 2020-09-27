@@ -1,6 +1,6 @@
 {
   "name": "chakra-cra",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "private": true,
   "dependencies": {
     "@chakra-ui/core": "1.0.0-rc.4",

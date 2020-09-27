@@ -1,23 +1,49 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/theme@1.0.0-rc.4...@chakra-ui/theme@) (2020-09-27)
+
+### Bug Fixes
+
+- remove shadow from outline buttons
+  ([ea5b228](https://github.com/chakra-ui/chakra-ui/commit/ea5b22800cd6b32ff05fe8d68ccb2c66ee0dae03))
+- small fixes
+  ([68ebb41](https://github.com/chakra-ui/chakra-ui/commit/68ebb418c600d4aadacf202454b456c50f65479f))
+
+### Features
+
+- alert styles
+  ([cef4740](https://github.com/chakra-ui/chakra-ui/commit/cef474054582d01cd2cd3b8f1b6956e07e4e972a))
+- border radius styles
+  ([7ac47e9](https://github.com/chakra-ui/chakra-ui/commit/7ac47e971a2eb2f8689a897bcdb8851a67fbd8d2))
+- breadcrumb styles
+  ([1c26401](https://github.com/chakra-ui/chakra-ui/commit/1c26401465288886f29099ce43070fd35782bdb0))
+- button styles
+  ([71ae4c5](https://github.com/chakra-ui/chakra-ui/commit/71ae4c5b374cf9564654bc490b9b1d234c0decf6))
+- close button styles
+  ([138e937](https://github.com/chakra-ui/chakra-ui/commit/138e9376ed2cfe9dcbb30f9dd0dc2bbdb1ae80ac))
+- input field styles
+  ([126ad94](https://github.com/chakra-ui/chakra-ui/commit/126ad94dc7da07faec3db14c3b6ca973fabfe01b))
+- menu styles
+  ([65b0060](https://github.com/chakra-ui/chakra-ui/commit/65b00601d114145929c905a02a49521c484a3784))
+- modal styles
+  ([9ad0332](https://github.com/chakra-ui/chakra-ui/commit/9ad03329b64241d42b06c9daefee15cdc01e1e1e))
+- set theme foundations
+  ([f9bb1b0](https://github.com/chakra-ui/chakra-ui/commit/f9bb1b093da847633f7cbdcc3151cfff5fbf5690))
+- switch styles
+  ([f92b6c4](https://github.com/chakra-ui/chakra-ui/commit/f92b6c494436aaf0400cb7ecd6f8127118eeb568))
+- tag styles
+  ([95eb5ea](https://github.com/chakra-ui/chakra-ui/commit/95eb5ea9d57c3d46106b7da48c897bfcffb820b9))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/theme
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/theme
-
-
-
-
 
 # Change Log
 

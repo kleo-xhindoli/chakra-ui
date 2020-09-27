@@ -1,23 +1,22 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/breadcrumb@1.0.0-rc.4...@chakra-ui/breadcrumb@) (2020-09-27)
+
+### Features
+
+- breadcrumb styles
+  ([1c26401](https://github.com/chakra-ui/chakra-ui/commit/1c26401465288886f29099ce43070fd35782bdb0))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/breadcrumb
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/breadcrumb
-
-
-
-
 
 # Change Log
 

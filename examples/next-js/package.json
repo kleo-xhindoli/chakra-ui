@@ -1,6 +1,6 @@
 {
   "name": "chakra-nextjs",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/clickable",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "description": "React hook and component that implements native button interactions",
   "keywords": [
     "chakra ui",

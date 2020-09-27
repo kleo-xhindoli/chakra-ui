@@ -1,23 +1,26 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/color-mode@1.0.0-rc.4...@chakra-ui/color-mode@) (2020-09-27)
+
+### Bug Fixes
+
+- forward theme.config to ColorModeProvider
+  ([097c783](https://github.com/chakra-ui/chakra-ui/commit/097c783a00736a119b253fb26316c7538de929c5))
+- properly sync root attribute
+  ([5b2929b](https://github.com/chakra-ui/chakra-ui/commit/5b2929b279abfec1bb44b69088c50e06863f5813))
+- use root property if no cookie was found
+  ([5f43686](https://github.com/chakra-ui/chakra-ui/commit/5f436866c05b762172180387fcf8a034d7490b7e))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/color-mode
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/color-mode
-
-
-
-
 
 # Change Log
 

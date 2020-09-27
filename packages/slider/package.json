@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/slider",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "description": "Accessible slider component for React that implements <input type=range>",
   "keywords": [
     "react",

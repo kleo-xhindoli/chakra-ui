@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/collapse",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "description": "An accessible auto-height and collapse component for elements with variable (and dynamic) height",
   "keywords": [
     "react",

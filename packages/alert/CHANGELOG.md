@@ -1,23 +1,22 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/alert@1.0.0-rc.4...@chakra-ui/alert@) (2020-09-27)
+
+### Features
+
+- alert styles
+  ([cef4740](https://github.com/chakra-ui/chakra-ui/commit/cef474054582d01cd2cd3b8f1b6956e07e4e972a))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/alert
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/alert
-
-
-
-
 
 # Change Log
 

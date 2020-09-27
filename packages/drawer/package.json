@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/drawer",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "description": "React component the renders a Drawer from the edges of the screen",
   "keywords": [
     "drawer",

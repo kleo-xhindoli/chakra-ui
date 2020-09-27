@@ -1,6 +1,6 @@
 {
   "name": "@chakra-ui/tag",
-  "version": "1.0.0-rc.4",
+  "version": null,
   "description": "This component displays as a tag with an optional link and/or button to remove the given tag.",
   "keywords": [
     "tag",

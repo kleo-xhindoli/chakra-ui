@@ -1,23 +1,22 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/core@1.0.0-rc.4...@chakra-ui/core@) (2020-09-27)
+
+### Bug Fixes
+
+- forward theme.config to ColorModeProvider
+  ([097c783](https://github.com/chakra-ui/chakra-ui/commit/097c783a00736a119b253fb26316c7538de929c5))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/core
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/core
-
-
-
-
 
 # Change Log
 

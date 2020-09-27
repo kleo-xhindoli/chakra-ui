@@ -1,23 +1,26 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/kleo-xhindoli/chakra-ui/compare/@chakra-ui/docs@1.0.0-rc.4...@chakra-ui/docs@) (2020-09-27)
+
+### Bug Fixes
+
+- correct createBreakpoints import
+  ([f7d56a1](https://github.com/kleo-xhindoli/chakra-ui/commit/f7d56a183a4768bc8f14255a16ff32d9e783872c))
+- docs
+  ([a1d8dc2](https://github.com/kleo-xhindoli/chakra-ui/commit/a1d8dc22f8cabf450a3b6e232cee3864ab7afd5f))
+- replace getServerSideProps
+  ([3c9582b](https://github.com/kleo-xhindoli/chakra-ui/commit/3c9582b8cc94af18c4049f75321dd8a1b7920eff))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/docs
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/docs
-
-
-
-
 
 # Change Log
 

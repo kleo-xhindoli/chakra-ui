@@ -1,23 +1,22 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [](https://github.com/chakra-ui/chakra-ui/compare/@chakra-ui/theme-tools@1.0.0-rc.4...@chakra-ui/theme-tools@) (2020-09-27)
+
+### Features
+
+- set theme foundations
+  ([f9bb1b0](https://github.com/chakra-ui/chakra-ui/commit/f9bb1b093da847633f7cbdcc3151cfff5fbf5690))
 
 # 1.0.0-rc.4 (2020-09-25)
 
 **Note:** Version bump only for package @chakra-ui/theme-tools
 
-
-
-
-
 # 1.0.0-rc.3 (2020-08-30)
 
 **Note:** Version bump only for package @chakra-ui/theme-tools
-
-
-
-
 
 # Change Log
 
