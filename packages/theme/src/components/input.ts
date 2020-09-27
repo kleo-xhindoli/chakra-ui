@@ -23,8 +23,8 @@ const size = {
 
   md: {
     fontSize: "md",
-    pl: 4,
-    pr: 4,
+    pl: 3,
+    pr: 3,
     h: 10,
     borderRadius: "md",
   },
@@ -34,7 +34,7 @@ const size = {
     pl: 3,
     pr: 3,
     h: 8,
-    borderRadius: "sm",
+    borderRadius: "md",
   },
 }
 
@@ -56,8 +56,8 @@ const sizes = {
 function getDefaults(props: Record<string, any>) {
   const { focusBorderColor: fc, errorBorderColor: ec } = props
   return {
-    focusBorderColor: fc || mode("blue.500", "blue.300")(props),
-    errorBorderColor: ec || mode("red.500", "red.300")(props),
+    focusBorderColor: fc || mode("blue.300", "blue.100")(props),
+    errorBorderColor: ec || mode("red.300", "red.100")(props),
   }
 }
 
@@ -84,17 +84,18 @@ function variantOutline(props: Record<string, any>) {
       _focus: {
         zIndex: 1,
         borderColor: getColor(theme, fc),
-        boxShadow: `0 0 0 1px ${getColor(theme, fc)}`,
+        boxShadow: `outline`,
       },
       _invalid: {
         borderColor: getColor(theme, ec),
-        boxShadow: `0 0 0 1px ${getColor(theme, ec)}`,
+        boxShadow: `outline-red`,
       },
     },
     addon: {
       border: "1px solid",
       borderColor: mode("inherit", "whiteAlpha.50")(props),
-      bg: mode("gray.100", "whiteAlpha.300")(props),
+      color: mode("gray.500", "gray.300")(props),
+      bg: mode("gray.50", "whiteAlpha.100")(props),
     },
   }
 }
