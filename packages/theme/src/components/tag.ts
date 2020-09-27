@@ -48,7 +48,7 @@ const sizes = {
       minH: "1.25rem",
       minW: "1.25rem",
       fontSize: "xs",
-      px: 1,
+      px: 2,
       borderRadius: "sm",
     },
   },
@@ -58,7 +58,7 @@ const sizes = {
       minW: "1.5rem",
       fontSize: "sm",
       borderRadius: "md",
-      px: 2,
+      px: 2.5,
     },
   },
   lg: {
