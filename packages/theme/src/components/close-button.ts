@@ -6,7 +6,6 @@ function baseStyle(props: Record<string, any>) {
 
   return {
     borderRadius: "full",
-    color: mode("gray.400", "whiteAlpha.400")(props),
     transition: "all 0.2s",
     _disabled: {
       opacity: 0.4,
