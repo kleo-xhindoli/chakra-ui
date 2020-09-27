@@ -1,11 +1,12 @@
 import { mode } from "@chakra-ui/theme-tools"
 
 function baseStyle(props: Record<string, any>) {
-  const hoverBg = mode(`blackAlpha.100`, `whiteAlpha.100`)(props)
-  const activeBg = mode(`blackAlpha.200`, `whiteAlpha.200`)(props)
+  const hoverBg = mode(`blackAlpha.50`, `whiteAlpha.50`)(props)
+  const activeBg = mode(`blackAlpha.100`, `whiteAlpha.100`)(props)
 
   return {
-    borderRadius: "md",
+    borderRadius: "full",
+    color: mode("gray.400", "whiteAlpha.400")(props),
     transition: "all 0.2s",
     _disabled: {
       opacity: 0.4,
