@@ -7,26 +7,29 @@ const baseStyle = {
   container: {
     px: 4,
     py: 3,
+    borderRadius: "md",
   },
   title: {
-    fontWeight: "bold",
-    lineHeight: 6,
+    fontWeight: "medium",
+    lineHeight: 5,
+    fontSize: "sm",
     mr: 2,
   },
   description: {
-    lineHeight: 6,
+    lineHeight: 5,
+    fontSize: "sm",
   },
   icon: {
     mr: 3,
     w: 5,
-    h: 6,
+    h: 5,
   },
 }
 
 function getBg(props: Dict) {
   const { theme, colorScheme: c } = props
-  const lightBg = getColor(theme, `${c}.100`, c)
-  const darkBg = transparentize(`${c}.200`, 0.16)(theme)
+  const lightBg = getColor(theme, `${c}.50`, c)
+  const darkBg = transparentize(`${c}.100`, 0.16)(theme)
   return mode(lightBg, darkBg)(props)
 }
 
@@ -34,7 +37,9 @@ function variantSubtle(props: Dict) {
   const { colorScheme: c } = props
   return {
     container: { bg: getBg(props) },
-    icon: { color: mode(`${c}.500`, `${c}.200`)(props) },
+    icon: { color: mode(`${c}.400`, `${c}.400`)(props) },
+    title: { color: mode(`${c}.800`, `${c}.300`)(props) },
+    description: { color: mode(`${c}.700`, `${c}.200`)(props) },
   }
 }
 
@@ -48,7 +53,7 @@ function variantLeftAccent(props: Dict) {
       bg: getBg(props),
     },
     icon: {
-      color: mode(`${c}.500`, `${c}.200`)(props),
+      color: mode(`${c}.800`, `${c}.200`)(props),
     },
   }
 }
